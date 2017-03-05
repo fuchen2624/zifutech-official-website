@@ -1,0 +1,120 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: #FFFFFF;
+}
+
+ul{
+  margin:0px;
+  padding: 0px;
+}
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+ height: 8%;
+ background: #1f2225a0;
+ width: 100%;
+ position: fixed;
+ top:0;
+ display: flex;
+ align-items: center;
+
+}
+
+.top ul {
+  margin-left: 23%;
+  font-size: 18px;
+  color: #FFFFFF;
+  float: left;
+}
+
+.top li {
+  display: inline;
+  text-align: center;
+}
+
+.top #tel {
+  display: inline;
+  font-size: 18px;
+  float: right;
+  margin: auto;
+}
+
+.top #tel img {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.top #tel span {
+  color: #FFFFFF;
+}
+
+.firstscreen {
+  background: url(./res/banner.jpg) no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.firstscreen h1{
+  color: #FFFFFF;
+  font-size: 3em;
+  position: relative;
+  margin: 0 auto ;
+  top: 42%;
+  width: 500px;
+
+}
+.firstscreen p{
+  margin: 0 auto ;
+  width: 300px;
+  top: 45%;
+  position: relative;
+  font-size: 18px;
+}
+
+
+
+
+.secondscreen{
+  background-color: white ;
+  height: 50%;
+  width: auto;
+}
+
+.secondscreen .module {
+  border: 1px solid red;
+  height: 100px;
+  width:100px;
+
+}
+
+
+
+.thirdscreen {
+  background-color: #F5F5F5;
+  height: 70%;
+  width: auto;
+}
+
+.forthscreen {
+  background-color: #31363d;
+  height : 40%;
+  width: auto;
+}
+
+.fifthscreen {
+  background-color: #1F2225;
+  height: 8%;
+  width: auto;
+}
