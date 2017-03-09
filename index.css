@@ -92,7 +92,7 @@ li {
   width: auto;
 }
 .secondscreen ul li { float: left; width: 300px; text-align: center; }
-.secondscreen img { padding-top: 12px; }
+.secondscreen img { padding-top: 60px; height: 120px;}
 .secondscreen h3 { display: block;  font-size: 18px;color: #333333;}
 .secondscreen span {display:block;font-size: 12px;color: #777777;}
 
@@ -101,11 +101,11 @@ li {
 .thirdscreen h3{color: #333333; font-size: 24px;  margin: 0 auto; position: relative; width: 100px; top:101px;}
 .thirdscreen h3 span{display:block ; color: #666666; font-size: 13px; margin: 0 auto ; position: relative; width: 200px; top:10px;}
 
-.thirdscreen .items {position: relative;top:130px;width: 80%;margin: 0 auto ; border: 1px solid red;}
-.thirdscreen .items ul li {float: left; width: 300px; text-align: center; }
-.thirdscreen .items  img {padding-top:12px;height: 200px; width: 200px;}
-.thirdscreen .items  h4  {display:block;font-size: 18px;color: #1D1D1D; margin : 0px;}
-.thirdscreen .items  span {font-size: 10px;color: #999999;}
+.thirdscreen ul {margin:130px auto 0px;width: 100%;}
+.thirdscreen  ul li {float: left; width: 300px; text-align: center;display: inline-block;}
+.thirdscreen  img {height: 200px; width: 200px; }
+.thirdscreen  h4  {display: block;font-size: 18px;color: #1D1D1D; width: 200px;margin : 0px 0px; padding: 0px;}
+.thirdscreen  span {font-size: 10px;color: #999999; margin: 0px;}
 
 
 .forthscreen {
@@ -113,6 +113,9 @@ li {
   height : 40%;
   width: auto;
 }
+.forthscreen h3 {margin:0 auto ; position: relative; width: 100px; top:44px; color:#FFFFFF; font-size: 20px;}
+.forthscreen span {display:block ; margin:0 auto; position: relative; width: 490px; top:65px; color:#cdcdcd;font-size:13px;}
+.forthscreen #contact {margin: 0 auto; position:relative;width: 500px;top:90px;border:1px solid red; font-size: 12px;color:#cdcdcd;}
 
 .fifthscreen {
   background-color: #1F2225;
