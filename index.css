@@ -91,21 +91,22 @@ li {
   height: 50%;
   width: auto;
 }
-
-.secondscreen .module {
-  border: 1px solid red;
-  height: 100px;
-  width:100px;
-
-}
+.secondscreen ul li { float: left; width: 300px; text-align: center; }
+.secondscreen img { padding-top: 12px; }
+.secondscreen h3 { display: block;  font-size: 18px;color: #333333;}
+.secondscreen span {display:block;font-size: 12px;color: #777777;}
 
 
+.thirdscreen { background-color: #F5F5F5; height: 70%; width: auto;}
+.thirdscreen h3{color: #333333; font-size: 24px;  margin: 0 auto; position: relative; width: 100px; top:101px;}
+.thirdscreen h3 span{display:block ; color: #666666; font-size: 13px; margin: 0 auto ; position: relative; width: 200px; top:10px;}
 
-.thirdscreen {
-  background-color: #F5F5F5;
-  height: 70%;
-  width: auto;
-}
+.thirdscreen .items {position: relative;width: 80%;margin: 0 auto ; border: 1px solid red;}
+.thirdscreen .items ul li {float: left; width: 300px; text-align: center; }
+.thirdscreen .items  img {padding-top:142px;height: 200px; width: 200px;}
+.thirdscreen .items  h4  {display:block;font-size: 18px;color: #1D1D1D; margin : 0px;}
+.thirdscreen .items  span {font-size: 10px;color: #999999;}
+
 
 .forthscreen {
   background-color: #31363d;
