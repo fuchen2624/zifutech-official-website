@@ -8,6 +8,7 @@ body {
   height: 100%;
   color: #FFFFFF;
   font-family: sans-serif;
+  min-width: 1280px;
 }
 
 ul{
