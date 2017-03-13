@@ -51,6 +51,12 @@ li {
 
 }
 
+.top img{
+  margin-left: 23%;
+  width: 100px;
+  height: 25px;
+}
+
 .top ul {
   margin-left: 23%;
   font-size: 18px;
@@ -64,6 +70,7 @@ li {
 }
 
 .top #tel {
+  width: 200px;
   display: inline;
   font-size: 18px;
   float: right;
@@ -104,7 +111,14 @@ li {
   position: relative;
   font-size: 18px;
 }
-
+.firstscreen img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: 80%;
+  width: 30px;
+  height: 20px;
+}
 
 
 
@@ -150,4 +164,4 @@ li {
 }
 .fifthscreen h2 {margin:0 auto ; width: 200px; color: #cdcdcd;font-size:16px; }
 
-.fifthscreen span {display: block;margin:0 auto ; width: 160px ; position: relative; color: #cdcdcd; font-size: 14px;top:14px;}
+.fifthscreen span {display: block;margin:0 auto ; width: 300px ; position: relative; color: #cdcdcd; font-size: 14px;}
