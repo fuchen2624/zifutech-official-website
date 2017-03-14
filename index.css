@@ -19,6 +19,21 @@ li {
   margin: 0px;
   padding: 0px;
 }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes remind {
+  0% {top:80%}
+  50% {top:75%}
+  100% {top:80%}
+}
+
+/* Standard syntax */
+@keyframes remind {
+  0% {top:80%}
+  50% {top:75%}
+  100% {top:80%}
+}
+
+
 
 .container {
   margin-left: auto;
@@ -88,7 +103,7 @@ li {
 }
 
 .firstscreen {
-  background: url(./res/banner.jpg) no-repeat;
+  background: url(./res/bg1.jpeg) no-repeat;
   background-position: 50% 0;
   background-size: cover;
   height: 100%;
@@ -111,15 +126,26 @@ li {
   position: relative;
   font-size: 18px;
 }
-.firstscreen img {
+.firstscreen a {
   position: relative;
   display: block;
   margin: 0 auto;
   top: 80%;
   width: 30px;
   height: 20px;
+  -webkit-animation-name: remind; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: remind;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
 }
-
+.firstscreen img {
+  width: 30px;
+  height: 20px;
+}
 
 
 .secondscreen{
